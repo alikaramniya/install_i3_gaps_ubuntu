@@ -39,3 +39,10 @@ meson -Ddocs=true -Dmans=true ../build
 meson compile -C ../build
 sudo meson install -C ../build
 ```
+
+### برای نصب کردن picom و nitrogen کافیه دستور پایین رو بزنیم
+```
+sudo apt update
+sudo apt install picom
+sudo apt install nitrogen
+```
